@@ -5,6 +5,26 @@
   </head>
   <body>
     <h1>Links</h1>
-      <p>Click here to go to <a href="./misc/extras.html">Extras</a></p>
+      <p>This particular page is about links! There are three kinds of links: </p>
+        <ul>
+
+          <li>Absolute Links, look like
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank">Mozilla Developer Network</a>, which is a very good resource for web developers.</li>
+
+            <p>It's best not to hard code your domain name everywhere when refering to pages in your own website. It's usually better to reserve absolute links only for directing users to a different website.</p>
+
+          <li>Relative Links, like to our <a href="misc/extras.html">extras page</a>.</li>
+            <p>"Relative" links point to another file in your website from the vantage point of the file you're editing. It's implied that the scheme and domain name are the same as the current page, so the only thing you need to supply is the path.</p>
+
+            <p>Relative links are nice because they let you move around entire folders without having to update all the href's on your "a" elements, but they can get a little confusing when all your links start with a bunch of dots. They're best for referring to resources in the same folder or in a standalone section of your website.</p>
+
+          <li>Root-Relative Links, like to the <a href="/">home page</a> of our website, aren't useful to us right now.</li>
+
+          <!-- This won't work for our local HTML files -->
+
+          <p>Root-relative links are some of the most useful kinds of links. They're explicit enough to avoid the potential confusion of relative links, but they're not overly explicit like absolute links. You'll see a lot of them throughout your web development career, especially in larger websites where it's hard to keep track of relative references.</p>
+            
+        </ul>
   </body>
 </html>
