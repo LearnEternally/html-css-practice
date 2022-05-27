@@ -4,18 +4,26 @@ html, body {
 
 .blog-title {
   color: #9FAEBC;
+  text-align: center;
+  padding-left: 0em;
+  padding-right: 9em;
 }
 
 .head {
   color: #9FAEBC;
+  padding-left: 4em;
+  padding-right: 4em;
 
 }
 
 .sub-head {
   color: #9FAEBC;
+  text-indent: 1em;
+  padding-left: 4em;
 }
 
 .blog-title,
+a,
 p,
 .head,
 .sub-head{
@@ -25,10 +33,25 @@ p,
 p {
   color: #F2F5EA;
   text-indent: 1em;
-  line-height: 1.6;
+  line-height: 1.7;
+  padding-left:6em;
+  padding-right: 6em;
+  padding-bottom: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 hr {
-  color:#9FAEBC;
+  border-color:#9FAEBC;
+  width: 43em;
+}
+
+strong {
+  color: #3E92CC;
+}
+
+a  {
+  color: #9FAEBC;
+  text-indent: 1em;
+  padding-left: 6em;
 }
