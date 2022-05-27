@@ -1,0 +1,34 @@
+html, body {
+  background-color: #2C363F;
+}
+
+.blog-title {
+  color: #9FAEBC;
+}
+
+.head {
+  color: #9FAEBC;
+
+}
+
+.sub-head {
+  color: #9FAEBC;
+}
+
+.blog-title,
+p,
+.head,
+.sub-head{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: #F2F5EA;
+  text-indent: 1em;
+  line-height: 1.6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+  color:#9FAEBC;
+}
